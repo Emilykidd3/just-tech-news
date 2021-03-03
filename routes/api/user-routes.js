@@ -50,6 +50,7 @@ router.post('/', (req, res) => {
         });
 });
 
+// LOGIN
 router.post('/login', (req, res) => {
     // query operation
     // expects {email: 'example@gmail.com', password: 'password'}
