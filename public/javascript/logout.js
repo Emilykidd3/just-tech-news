@@ -5,10 +5,8 @@ async function logout() {
     });
 
     if (response.ok) {
-        console.log("worked")
         document.location.replace('/');
     } else {
-        console.log("didnt work")
         alert(response.statusText);
     }
 }

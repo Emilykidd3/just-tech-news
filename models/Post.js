@@ -1,7 +1,5 @@
-const { dasherize } = require("inflection");
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
-const { beforeSync } = require("./User");
 
 // create our post model
 class Post extends Model {
